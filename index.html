@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-  <html lang="de">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron Bojko – Music Marketing Portfolio</title>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaron Bojko – Music Marketing Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Aaron Bojko</h1>
-  <p>Music Marketing · Shortform Content · Artist Growth</p>
-  </body>
-  </html>
-  
+<header class="hero">
+<h1>Aaron Bojko</h1>
+<p class="tagline">Music Marketing · Shortform Content · Artist Growth</p>
+</header>
+<main>
+<section id="videos" class="video-section">
+<h2>Shortform Content</h2>
+<div class="filters">
+<button class="filter-btn active" data-filter="all">Alle</button>
+<button class="filter-btn" data-filter="artist-growth">Artist Growth</button>
+<button class="filter-btn" data-filter="content-strategy">Content Strategy</button>
+<button class="filter-btn" data-filter="band-marketing">Band Marketing</button>
+<button class="filter-btn" data-filter="social-media">Social Media</button>
+</div>
+<div class="video-grid">
+
+<article class="video-card" data-category="content-strategy">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/MGcqBYhUpzc" title="Der larger than life Effekt" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>Der "larger than life" Effekt</h3>
+<span class="category-tag">Content Strategy</span>
+<p>Warum Buehnenpraesenz und Ausstrahlung genauso wichtig sind wie die Musik selbst.</p>
+</article>
+
+<article class="video-card" data-category="band-marketing">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/7srpybub_I4" title="Amateur vs Pro Shows" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>Amateur vs Pro Shows</h3>
+<span class="category-tag">Band Marketing</span>
+<p>Was den Unterschied zwischen einem durchschnittlichen und einem professionellen Live-Auftritt ausmacht.</p>
+</article>
+
+<article class="video-card" data-category="artist-growth">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/bo0AzrWK6VU" title="3 Skills - Must have als Musiker" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>3 Skills - Must-have als Musiker</h3>
+<span class="category-tag">Artist Growth</span>
+<p>Drei Faehigkeiten, die Musiker neben dem eigentlichen Musizieren mitbringen sollten.</p>
+</article>
+
+<article class="video-card" data-category="social-media">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/c3OiuDNsFCg" title="3 Dinge zum Posten" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>3 Dinge zum Posten</h3>
+<span class="category-tag">Social Media</span>
+<p>Drei einfache Content-Ideen, mit denen Musiker sofort starten koennen.</p>
+</article>
+
+<article class="video-card" data-category="content-strategy">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/WRggDj4mNlw" title="60 Tage Reup" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>60 Tage Reup</h3>
+<span class="category-tag">Content Strategy</span>
+<p>Ein Rueckblick darauf, was 60 Tage konsequentes Posten wirklich bringen.</p>
+</article>
+
+<article class="video-card" data-category="band-marketing">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/JIwYSrMxSTw" title="Proberaum Musikvideo Tipp" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>Proberaum Musikvideo Tipp</h3>
+<span class="category-tag">Band Marketing</span>
+<p>Ein einfacher Trick, um aus dem Proberaum hochwertigen Video-Content zu produzieren.</p>
+</article>
+
+<article class="video-card" data-category="social-media">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/IVgKxO4d0DY" title="3 Dinge zum Posten Teil 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<h3>3 Dinge zum Posten - Teil 2</h3>
+<span class="category-tag">Social Media</span>
+<p>Weitere drei Content-Ideen fuer Musiker, die sofort umsetzbar sind.</p>
+</article>
+
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2026 Aaron Bojko</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
